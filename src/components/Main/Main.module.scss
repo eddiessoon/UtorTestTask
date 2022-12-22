@@ -1,0 +1,52 @@
+article {
+    max-width: 1135px;
+    margin-left: 175px;
+    margin-right: 130px;
+    display: flex;
+    flex-direction: column;
+}
+article:first-child {
+    margin-top: 172px;
+}
+article:nth-child(2) {
+    margin-top: 150px;
+    
+}
+main {
+    margin: 150px 538px 60px 176px;
+    width: 716px;
+    height: 726px;
+}
+.square {
+    position: absolute;
+    z-index: -1;
+}
+.triangle {
+    position: absolute;
+    z-index: 1;
+    padding-left: 546px;
+
+}
+.circle {
+    position: absolute;
+    z-index: 1;
+}
+.rectangle {
+    position: absolute;
+    z-index: 2;
+    padding-left: 150px;
+    padding-top: 100px;
+}
+.rectnb {
+    position: absolute;
+    z-index: 3;
+    padding-left: 100px;
+    padding-top: 485px;
+}
+.circlemini {
+    position: absolute;
+    z-index: 3;
+    padding-left: 405px;
+    padding-top: 250px;
+}
+
